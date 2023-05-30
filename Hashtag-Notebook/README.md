@@ -15,7 +15,8 @@ wanso/
 └── ko.bin
 ```
 ### 설치 파일
-1. 필요한 라이브러리 설치: requirements.txt
+1. 필요한 라이브러리 설치: requirements.txt</br>
+    ✅ **Python 3.8.8 버전**에서 파일을 실행함
     ```
     !pip install -r requirements.txt
     ```
@@ -25,8 +26,9 @@ wanso/
     ```
     !unzip ko.zip
     ```
-3. Topic Classification Model의 weights 파일(.pt) 다운로드
-    - [Classification-Notebook](https://github.com/soyeong-kim/skt-fly-teamHashTag-NLP/tree/main/Classification-Notebook)에서 Fine-tuning한 Multilingual BERT 모델의 가중치를 사용함
+3. Topic Classification Model의 weights 파일(.pt) 다운로드</br>
+    ✅ [Classification-Notebook](https://github.com/soyeong-kim/skt-fly-teamHashTag-NLP/tree/main/Classification-Notebook)에서 Fine-tuning한 Multilingual BERT 모델의 가중치(classification_model.pt)를 사용함</br>
+    ✅ **경로**: weights/classification_model.pt
 ### 파일 실행
 ```
 python3 adot_tag_run.py
