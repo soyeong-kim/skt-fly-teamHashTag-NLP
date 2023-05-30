@@ -1,4 +1,4 @@
-# BERT모델 기반 문서의 토픽 분류 모델</br>(BERT-based Topic Classification Model for Documents)
+# BERT모델 기반 문서의 주제 분류 모델</br>(BERT-based Topic Classification Model for Documents)
 ### 파일 구조
 ```
 wanso/
