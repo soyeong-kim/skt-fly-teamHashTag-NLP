@@ -20,11 +20,6 @@ NLP팀에서 [qqq3964](https://github.com/qqq3964/SKT_Project) 팀원과 **(1) B
 ![github](https://img.shields.io/badge/github-100000?style=for-the-badge&logo=github&logoColor=white)
 ![notion](https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
-### 파일 구조
-```
-
-```
-
 ### (1) BERT모델 기반 문서의 토픽 분류 모델 설명
 [Classification-Notebook](https://github.com/soyeong-kim/skt-fly-teamHashTag-NLP/tree/main/Classification-Notebook) 파일
 
