@@ -41,6 +41,7 @@ class PredictModel():
             padding='max_length', # Pad and truncate
             truncation=True, #Truncate the seq
             return_attention_mask=True, # Construct attn. masks
+            return_token_type_ids=False, 
             return_tensors='pt' # Return pytorch tensors
         )
         
