@@ -37,7 +37,7 @@ NLP팀에서 [qqq3964](https://github.com/qqq3964/SKT_Project) 팀원과 **(1) B
 📌 [Team Repository](https://github.com/skt-fly-teamHashTag)</br>
 |[eunsun53](https://github.com/skt-fly-teamHashTag/ML-total)|[BBIYAC](https://github.com/skt-fly-teamHashTag/Frontend)|[JOOYUNHAK](https://github.com/JOOYUNHAK/skt-fly-ai-team-hashtag-backend)|[qqq3964](https://github.com/qqq3964/SKT_Project)|[rkskek1226](https://github.com/rkskek1226/SKT_FLY_AI_Challenger_HashTag)|
 |:----------:|:----------:|:----------:|:----------:|:----------:|
-|**팀장&AI팀**</br>영상 요약 추출|**프론트엔드**</br>사용자의 화면 개발|**백엔드**</br>DB 설계와 클라우드 배포|**AI팀**</br> 해시태그 추출|**AI팀**</br>썸네일 추출|
+|**팀장&AI팀-Vision**</br>영상 요약 추출|**프론트엔드**</br>사용자의 화면 개발|**백엔드**</br>DB 설계와 클라우드 배포|**AI팀-NLP**</br> 해시태그 추출|**AI팀-Vision**</br>썸네일 추출|
 
 ### 데모 영상
 ➡️ [Demo Video](https://github.com/skt-fly-teamHashTag/Frontend/blob/master/README.md#%EC%8B%A4%ED%96%89-%EC%98%81%EC%83%81) 링크를 통해 브이로그 자동 생성 앱의 데모 영상을 확인할 수 있습니다.
