@@ -25,11 +25,11 @@ NLP팀에서 [qqq3964](https://github.com/qqq3964/SKT_Project) 팀원과 **(1) B
 ```
 
 ### (1) BERT모델 기반 문서의 토픽 분류 모델 설명
-[Classification-Notebook]() 파일
+[Classification-Notebook](https://github.com/soyeong-kim/skt-fly-teamHashTag-NLP/tree/main/Classification-Notebook) 파일
 
 
 ### (2) 해시태그 추출 알고리즘 설명
-[Hashtag-Notebook]() 파일
+[Hashtag-Notebook](https://github.com/soyeong-kim/skt-fly-teamHashTag-NLP/tree/main/Hashtag-Notebook) 파일
 
 
 ### 팀원 소개
