@@ -20,13 +20,18 @@ NLP팀에서 [qqq3964](https://github.com/qqq3964/SKT_Project) 팀원과 **(1) B
 ![github](https://img.shields.io/badge/github-100000?style=for-the-badge&logo=github&logoColor=white)
 ![notion](https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
-### (1) BERT모델 기반 문서의 토픽 분류 모델 설명
-[Classification-Notebook](https://github.com/soyeong-kim/skt-fly-teamHashTag-NLP/tree/main/Classification-Notebook) 파일
+### (1) BERT모델 기반 문서의 주제 분류 모델
+*[Classification-Notebook 파일](https://github.com/soyeong-kim/skt-fly-teamHashTag-NLP/tree/main/Classification-Notebook)*</br>
+- 브이로그 인기 분야 10개 클래스(가족, 스터디, 뷰티, 반려동물, 운동/스포츠, 음식, 여행, 연애/결혼, 문화생활, 직장인)로 데이터셋을 구축합니다.
+- 해당 데이터셋을 Multilingual BERT로 Fine-tuning하여 토픽 분류 모델을 만들었습니다.
+- 영상의 구간별 음성 텍스트를 BERT모델 기반 문서의 주제 분류 모델을 활용하여 핵심 구간을 선정했습니다.
 
-
-### (2) 해시태그 추출 알고리즘 설명
-[Hashtag-Notebook](https://github.com/soyeong-kim/skt-fly-teamHashTag-NLP/tree/main/Hashtag-Notebook) 파일
-
+### (2) 해시태그 추출 알고리즘
+*[Hashtag-Notebook 파일](https://github.com/soyeong-kim/skt-fly-teamHashTag-NLP/tree/main/Hashtag-Notebook)*</br>
+- 핵심 구간의 음성을 Speech Recognition API를 통해 텍스트로 변환하여 KeyBERT 모델을 통해 Top-1 명사를 추출합니다.
+- 핵심 구간의 이미지에서 YOLOv5를 통해 객체명을 추출합니다.
+- 사전 학습된 Word2Vec 모델을 사용하여 핵심 구간의 Top-1 명사와 객체명 사이의 유사도를 계산하고 유사도가 높은 객체명을 추출합니다.
+- 따라서 해시태그 후보로 Top-1 명사, 객체명이 추출됩니다.
 
 ### 팀원 소개
 📌 [Team Repository](https://github.com/skt-fly-teamHashTag)</br>
